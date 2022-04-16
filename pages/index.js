@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Flex, Box, Text, Button } from "@chakra-ui/react";
 import { baseUrl, fetchApi } from "../utils/fetchAPI";
-import Property from "../components/property";
+import Property from "../components/Property.jsx";
 
 const Banner = ({
   purpose,
